@@ -40,7 +40,7 @@ export const Header = (params) => {
   return (
     <Fragment>
       <p className="runtext" style={{ marginTop: "40px" }}>
-        <p>Selamat Datang di Website Badan Perencanaan Pembangunan Daerah Kabupaten Lampung Timur</p>
+        <p>Selamat Datang di Website Badan Pendanaan Daerah Kabupaten Lampung Timur</p>
       </p>
       <div className="margin">
         <Row>
