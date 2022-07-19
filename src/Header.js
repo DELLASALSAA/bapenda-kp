@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { Fragment } from "react/cjs/react.production.min";
+import React, { useState, useEffect, Fragment } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
@@ -8,6 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Nav from "react-bootstrap/Nav";
 import { AiOutlineMail } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";
+import axios from "axios";
 
 export const Header = (params) => {
   const [DataResponse, setDataResponses] = useState(0);

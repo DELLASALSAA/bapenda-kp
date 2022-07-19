@@ -1,5 +1,4 @@
-import React from "react";
-import { Fragment } from "react/cjs/react.production.min";
+import React, { Fragment } from "react";
 import Card from "react-bootstrap/Card";
 import ListGroup from "react-bootstrap/ListGroup";
 import { Carousel } from "react-bootstrap";

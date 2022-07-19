@@ -1,8 +1,7 @@
-import React from "react";
-import { Fragment } from "react/cjs/react.production.min";
+import React,{ useEffect, useState, Fragment } from "react";
 import "./Static.css";
 import { useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Static = () => {
   const { id } = useParams();
