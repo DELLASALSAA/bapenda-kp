@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  width: 100%;
+  height: 200px;
+  background: #344CB7;
+}
+
+/* .container-home-main {
+  margin: 55px 135px;
+} */
+
+@media (min-width: 1082px) {
+  .container-home-main {
+    margin: 55px 135px;
+  }
+}
+@media (max-width: 1081px) {
+  .row.mb-5 {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 3rem;
+  }
+  .emailaddress.col {
+    align-items: center;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 1420px) {
+  .emailaddress.col {
+    padding: 0px !important;
+}
+}
+@media (max-width: 1002px) {
+  .emailaddress.col {
+    display: none;
+  }
+}
+@media (max-width: 745px) {
+  h1.text-logo {
+    font-size: 1.5rem;
+    align-self: center;
+  }
+
+  .row.content-home {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 3rem;
+  }
+  .row.content-gallery {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 3rem;
+  }
+}
+.title-home-news {
+  border-bottom: 1px solid #c4c4c4;
+  padding-bottom: 20px;
+}
+
+.no-padding {
+  padding: 0px !important;
+  margin: 0px 10px !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.kata-pembuka-news {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.kata-penutup-news {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+
+.kepala-dinas {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+
+.rest p {
+  font-size: 14px;
+  line-height: 2.1;
+}
+
+.foto-kepala {
+  max-width: 500px;
+  max-height: 320px;
+  border-radius: 10px;
+}
+
+.nama-kpla {
+  padding-top: 35px;
+}
+
+.image-size {
+  width: 386.39px;
+  height: 209.59px;
+}
+
+.costum-center-paginasi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.emailaddress {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 100%; */
+}
+
+@media only screen and (max-width: 970px) {
+  .emailaddress {
+    flex-direction: column;
+  }
+}
+
+html,
+body {
+  width: 100% !important;
+}
+
+.scroll-nav {
+  overflow-x: scroll;
+}
