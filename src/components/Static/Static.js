@@ -71,7 +71,7 @@ const Static = () => {
         <section className="team-clean">
           <div className="container">
             <div className="intro">
-              <h2 className="text-center">Struktural Badan Perencanaan Pembangunan Daerah</h2>
+              <h2 className="text-center">Struktural Badan Pendanaan Daerah</h2>
             </div>
             <div className="row people">
               <div className="col-md-6 col-lg-4 item">
