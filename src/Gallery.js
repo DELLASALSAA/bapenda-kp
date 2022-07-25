@@ -63,8 +63,8 @@ const Gallery = () => {
     <Fragment>
       <div className="wrapper">
         {console.log("DataVideoGallery", DataVideoGallery)}
-        <h1 className="font-color">Galeri Foto dan Video Badan Perencanaan Pembangunan Daerah</h1>
-        <p>Foto Badan Perencanaan Pembangunan Daerah</p>
+        <h1 className="font-color">Galeri Foto dan Video Badan Pendanaan Daerah</h1>
+        <p>Foto Badan Pendanaan Daerah</p>
         <div className="grid">
           {CustomDataGallery &&
             CustomDataGallery.map((item, index) => {
@@ -80,7 +80,7 @@ const Gallery = () => {
       </div>
       <div className="content">
         <div className="section-header">
-          <h1 className="font-video">Video Badan Perencanaan Pembangunan Daerah</h1>
+          <h1 className="font-video">Video Badan Pendanaan Daerah</h1>
         </div>
         <div className="video-gallery">
           {DataVideoGallery &&
