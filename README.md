@@ -64,7 +64,8 @@ pm2 list
 
 ## Membuat server blok
 Untuk membuat server blok dapat menggunakan command:
-``` cd/etc/nginx/conf.d/
+``` 
+cd/etc/nginx/conf.d/
 ```
 
 ## Menjalankan server blok
