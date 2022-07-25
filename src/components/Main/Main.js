@@ -37,7 +37,7 @@ const Main = () => {
   useEffect(() => {
     axios
       .get(
-        "http://adminmesuji.embuncode.com/api/article?instansi_id=21&per_page=2"
+        "http://adminmesuji.embuncode.com/api/article?instansi_id=21&per_page=4"
       )
       .then(function (repsonse) {
         setDataArticle(repsonse.data.data.data);
@@ -206,12 +206,12 @@ const Main = () => {
             />
           </div>
           <div className="col-md-8 rest">
-            <h2 className="kata-pembuka-news">Badan Perencanaan Pembangunan Daerah</h2>
+            <h2 className="kata-pembuka-news">Badan Pendanaan Daerah</h2>
             <p>Tentang Instansi</p>
             <p>{DataKepala.tentang}</p>
             <div className="nama-kpla">
               <h2 className="kata-penutup-news">
-                Badan Perencanaan Pembangunan Daerah
+                Badan Pendanaan Daerah
               </h2>
               <h2 className="kepala-dinas">{DataKepala.nama_kepala}</h2>
             </div>
@@ -374,7 +374,7 @@ const Main = () => {
                   onKeyDown={handleSearchChange}
                   className="form-control"
                   type="text"
-                  placeholder="Ketikan sesuatu ..."
+                  placeholder="Cari Berita"
                  
                 />
               </div>

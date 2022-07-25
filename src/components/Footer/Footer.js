@@ -65,7 +65,7 @@ const Footer = () => {
       {/* =============== 1.9 Footer Area Start ====================*/}
       <footer>
         <p>
-          Copyright © 2022 Badan Perencanaan Pembangunan Daerah | All Rights Reserved.
+          Copyright © 2022 Badan Pendanaan Daerah | All Rights Reserved.
         </p>
       </footer>
     </div>
